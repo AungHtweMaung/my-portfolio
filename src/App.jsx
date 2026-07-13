@@ -3,7 +3,7 @@ import profileImage from './assets/images/profile.jpg'
 const skillGroups = [
   {
     category: 'Frontend',
-    items: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React', 'Vue', 'Bootstrap', 'Tailwind'],
+    items: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React', 'Vue', 'Bootstrap'],
   },
   {
     category: 'Backend',
@@ -15,7 +15,7 @@ const skillGroups = [
   },
   {
     category: 'Deployment',
-    items: ['Vultr', 'DigitalOcean', 'Hostinger', 'Git', 'GitHub', 'Linux Servers'],
+    items: ['Vultr', 'DigitalOcean', 'Hostinger', 'Git', 'GitHub', 'Linux Servers', 'Docker', 'Nginx'],
   },
 ]
 
@@ -33,6 +33,13 @@ const projects = [
     summary:
       'Contributed to features for application processing, approval steps, document handling, and reporting for regulatory operations.',
     stack: ['Laravel', 'MySQL', 'Blade', 'REST APIs'],
+  },
+  {
+    name: 'Laravel AI Image Checker',
+    type: 'Image Validation System',
+    summary:
+      'Developed an AI-powered image validation tool integrated with Laravel, enabling automated image quality assessment and compliance checking.',
+    stack: ['LaravelAI SDK', 'Openai Api', 'Gemini', 'MySQL'],
   },
   {
     name: 'Menu Order System',
@@ -53,6 +60,7 @@ const projects = [
     summary: 'Built a personal blog platform, responsive design, and SEO optimization.',
     stack: ['Python', 'Django', 'MySQL', 'Bootstrap'],
   },
+  
 ]
 
 export default function App() {
@@ -68,14 +76,14 @@ export default function App() {
 
         <section className="hero-content container reveal">
           <div className="hero-text-block">
-            <p className="tag-text">Laravel Developer • 2+ Years Experience</p>
+            <p className="tag-text">Laravel Developer</p>
             <h1>
               I build reliable backend systems
               <br />
               and elegant frontend experiences.
             </h1>
             <p className="hero-lead-text">
-              Mid-level Php Laravel Developer focused on clean architecture, practical
+              Php Laravel Developer focused on clean architecture, practical
               performance, and modern product design.
             </p>
             <div className="hero-action-group">
